@@ -4,7 +4,7 @@ import ShipCost from './ShipCost'
 function Tracking() {
   return (
     <>
-      <div className='w-full px-8 md:px-4 py-8 shadow-xl lato flex items-center justify-start xl:justify-center relative z-40 top-32 md:top-0 gap-4 flex-wrap'>
+      <div className='w-full px-8 md:px-4 py-8 shadow-xl lato flex items-center justify-start xl:justify-center relative z-20 relative top-32 md:top-0 gap-4 flex-wrap'>
         <div className='w-full lg:w-[30%] flex flex-col gap-6'>
           <h2 className='text-xl font-semibold'>Track Delivery</h2>
           <div className='flex flex-col md:flex-row gap-2'>

@@ -5,13 +5,13 @@ function Sizes() {
   return (
     <>
       <div className='w-full mt-24 w-full'>
-        <div className='flex justify-between '>
+        <div className='flex flex-col md:flex-row justify-between '>
           <p className='text-2xl text-[#595959] font-semibold '>Lorem Ipsum Dolor sit amet</p>
-          <p className='px-6 flex items-center text-white bg-[#FFC22B] font-semibold rounded-lg tracking-widest '>BEST OFFER</p>
+          <p className='px-6 w-[180px] flex items-center justify-center text-white bg-[#FFC22B] font-semibold rounded-lg tracking-widest mt-6 md:mt-0 '>BEST OFFER</p>
         </div>
-        <div className='mt-12 w-full flex'>
-          <img src={sizeTruck} className='w-[45%]  ' />
-          <div className='w-[55%] px-4 flex  flex-col gap-2 '>
+        <div className='mt-12 w-full flex flex-col items-center lg:flex-row'>
+          <img src={sizeTruck} className='w-[85%] lg:w-[45%]  ' />
+          <div className='w-full lg:w-[55%] px-4 flex  flex-col gap-2 '>
             <div className='flex justify-between  text-[#6E7A7B] font-semibold text-lg '>
               <p className='w-[90%]'>Cost of Airfreight</p>
               <p className='w-[10%] pr-24'>Price</p>
