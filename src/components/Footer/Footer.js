@@ -1,8 +1,15 @@
 import React from 'react'
+import FooterBar from './FooterBar/FooterBar'
+import FooterBotside from './FooterBotside/FooterBotside'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <>
+      <div className='w-full px-16 bg-[#F7F7FA] '>
+        <FooterBar />
+        <FooterBotside />
+      </div>
+    </>
   )
 }
 

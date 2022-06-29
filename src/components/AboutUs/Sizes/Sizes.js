@@ -10,7 +10,7 @@ function Sizes() {
           <p className='px-6 w-[180px] flex items-center justify-center text-white bg-[#FFC22B] font-semibold rounded-lg tracking-widest mt-6 md:mt-0 '>BEST OFFER</p>
         </div>
         <div className='mt-12 w-full flex flex-col items-center lg:flex-row'>
-          <img src={sizeTruck} className='w-[85%] lg:w-[45%]  ' />
+          <img src={sizeTruck} alt='truckSizes' className='w-[85%] lg:w-[45%]  ' />
           <div className='w-full lg:w-[55%] px-4 flex  flex-col gap-2 '>
             <div className='flex justify-between  text-[#6E7A7B] font-semibold text-lg '>
               <p className='w-[90%]'>Cost of Airfreight</p>

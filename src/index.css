@@ -10,3 +10,8 @@
 .lato{
   font-family: 'Lato', sans-serif;
 }
+
+/* GRADIENTS */
+.greenGradient{
+  background: linear-gradient(90.04deg, #5CB30B 0.04%, #2D9209 65.51%);
+}
