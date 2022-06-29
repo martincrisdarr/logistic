@@ -8,7 +8,7 @@ import map from '../../assets/services/map.png'
 function Contact() {
   return (
     <>
-      <div className='px-16 xl:px-48 mt-24 lato'>
+      <div className='px-16 xl:px-48 mt-24 lato' id='contact'>
       <h1 className='text-3xl text-[#0D253E] font-semibold'>Contact Us</h1>
       <p className='text-[#2F303599] text-lg mt-6'><span className='text-[#222222BF] font-semibold'>Contact Us</span> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Simply dummy text of the printing and typesetting industry. Simply dummy text of the printing and typesetting industry.</p>
       <div className='w-full flex flex-col lg:flex-row mt-16 gap-8'>
